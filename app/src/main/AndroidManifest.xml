@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.sokato.game.yuzu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/yuzu"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/yuzu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddPlayers"
+            android:label="@string/title_activity_add_players"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.sokato.game.yuzu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Jouer"
+            android:label="@string/title_activity_jouer"
+            android:parentActivityName=".AddPlayers"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.sokato.game.yuzu.AddPlayers" />
+        </activity>
+        <activity android:name=".Resultat" />
+        <activity android:name=".SavedStories" />
+        <activity android:name=".Options" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="7a5e264cca43c63f9ad628b2cf8375cfc0b87447" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7683252153346403~2167178748"/>
+
+        <activity android:name=".welcome" />
+        <activity android:name=".Consent"/>
+    </application>
+
+</manifest>

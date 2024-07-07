@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Yuzu_2"
+    tools:context=".welcome">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/WelcomeViewPager"
+        android:layout_above="@id/WelcomeLinearLayout">
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/WelcomeLinearLayout"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:id="@+id/ButtonBack"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/ButtonBackText"
+        android:layout_marginLeft="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:id="@+id/ButtonNext"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/ButtonNextText"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

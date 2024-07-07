@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Yuzu</string>
+    <string name="Options">Options</string>
+    <string name="Sauvegardes">Saves</string>
+    <string name="NouvellePartie">New game</string>
+    <string name="title_activity_add_players">AddPlayers</string>
+    <string name="title_activity_add_phrase">AddPhrase</string>
+    <string name="NextPlayer">Next player</string>
+    <string name="NomDuJoueur">Player name</string>
+    <string-array name="ColorArray">
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>black</item>
+        <item>purple</item>
+    </string-array>
+    <string name="title_activity_jouer">Jouer</string>
+    <string name="JouerHint">Enter your first sentence</string>
+    <string name="PasAssezDeTexte">Please write at least two sentences</string>
+    <string name="NouvellePhrase">New sentence</string>
+    <string name="welcome">Welcome to the game !</string>
+    <string name="Terminer">Finish !</string>
+    <string name="Resultat">Result !</string>
+    <string name="EntrerTitre">Enter a title</string>
+    <string name="save">Save</string>
+    <string name="TextError">Error while loading the text</string>
+    <string name="Saved">Text saved</string>
+    <string name="AlreadySaved">Text already saved</string>
+    <string name="ResetSharedPreferences">Delete all saves</string>
+    <string name="NoStorySaved">It looks like you haven\'t saved any story yet !</string>
+    <string name="disableAds">No ads</string>
+    <string name="Greeting">Let\'s play with your friends !</string>
+    <string name="PasAssezJoueurs">At least two players are necessary !</string>
+    <string name="NomVide">Every player must have a name !</string>
+    <string name="MusicPlayerFailed">Error loading the music</string>
+    <string name="DisableMusic">Music</string>
+    <string name="MusicVolume">Music volume</string>
+    <string name="LastPhraseEmpty">The last sentence cannot be empty !</string>
+    <string name="AjouterJoueur">Add a player</string>
+    <string name="AJActivity">Choose the players</string>
+    <string name="Heading_1">Welcome to Yuzu !</string>
+    <string name="Heading_2">Add players</string>
+    <string name="Heading_3">The main screen</string>
+    <string name="Heading_4">Seeing the result</string>
+    <string name="Text_1">Hello, I am Yuzu ! I will be your guide through this game. I will show you how to play, an introduce you to the fuctionalities of this app ! If you ever want to see these instructions again, you\'ll find me in the options !</string>
+    <string name="Text_2">Let\'s start at the beginning ! Yuzu is a multiplayer game, so every player has to enter his name to know when his turn comes ! When every player has a name, you can click on the arrow at the bottom of the screen to start the game !</string>
+    <string name="Text_3">This is the main screen of the game! At the top, you can see which player must play, under this, you can see the last sentence of the player before, this is the only thing you know about the story, and you need to continue the story by writing what comes after this sentence, you can write as many sentences as you want with the plus button. You can finish your turn by pressing the arrow, and when you think the story is long enough, click \"Finish\"</string>
+    <string name="Text_4">Here you can see the full story you just wrote, you can, with the button at the botton, save the story to read it again later, send it to your friends, or return to the game\'s main screen</string>
+    <string name="ButtonBackText">Back</string>
+    <string name="ButtonNextText">Next</string>
+    <string name="ButtonFinish">Finish</string>
+    <string name="ShowTuto">Show intro again</string>
+    <string name="AboutUs">About us</string>
+    <string name="Designer">Designer :</string>
+    <string name="Sadia">Molla Sadia</string>
+    <string name="Programmer">Programmer :</string>
+    <string name="myself">Thomas Cyril</string>
+    <string name="OurStory">We are a team of two french students. We wanted to create a game inspired by the \"Cadavre exquis\" to have something to do withs our friends or family. So I programmed the game, a version that worked, but was ugly. So I asked Sadia, who\'s a better artist than I am, to take care of the game\'s graphics, and this is what we created !</string>
+    <string name="Antonis">If you would like to write your own application for android, I recommend you the book \"Android development for gifted primates\" by Antonis Tsagaris, it is easy to follow and this is what I used to learn and create this game ! You can buy it <![CDATA[<a href="https://www.amazon.com/Android-Development-Gifted-Primates-Beginners-ebook/dp/B07FYSKVYY">Here</a>]]>.</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="DeleteEverything">Are you sure you want to delete every story you saved ? You can delete them individually from the \"Saves\" page</string>
+    <string name="Sure">Are you sure ?</string>
+    <string name="Accept">I accept to the collection of usage data for analysis and product improvement purposes</string>
+    <string name="Ads">I want to personalized advertisements</string>
+    <string name="Pads">Personalized ads</string>
+    <string name="Creports">Send crash reports</string>
+    <string name="NoAds">You won\'t see personalized ads anymore</string>
+    <string name="NewAds">You\'ll now see personalized ads</string>
+    <string name="PleaseRestart">Please restart the application for your changes to take effect</string>
+    <string name="ConsentTitle">One last thing</string>
+    <string name="ConsentText">This application uses Answers by Fabric to collect anonymous usage data ans crash reports to help us improve the game. Data like the phone model and OS version are collected. We are also using Google Admob to show you advertisements which help us fund the game.\n\nWe want to respect your privacy, this is why we allow you to prevent the app from collecting such data and showing you tailored ads.\n\nYou can at any time deactivate or reactivate these settings from the options menu.</string>
+    <string name="Really">Sure ?</string>
+    <string name="Quit">Do you really want to leave the current game and return to the main menu ?</string>
+</resources>

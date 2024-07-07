@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/Yuzu_2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ButtonFinish"
+        android:textSize="22sp"
+        android:background="@drawable/button_3"
+        android:layout_margin="16dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:id="@+id/FinishConsent"
+        android:fontFamily="@font/britannic"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Layout_crashReport"
+        android:layout_above="@id/FinishConsent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Accept"
+            android:fontFamily="@font/montserrat_regular"
+            android:id="@+id/AcceptText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AcceptCheckBox"
+            android:layout_centerVertical="true"
+            android:checked="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Layout_Ads"
+        android:layout_above="@id/Layout_crashReport">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Ads"
+            android:fontFamily="@font/montserrat_regular"
+            android:id="@+id/AdsText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AdsCheckBox"
+            android:checked="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConsentTitle"
+        android:gravity="center"
+        android:text="@string/ConsentTitle"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="22sp"
+        android:layout_marginTop="24dp"
+        android:maxLines="1"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ConsentTitle"
+        android:layout_above="@id/Layout_Ads"
+        android:padding="5dp"
+        android:background="@drawable/consent_background_textview"
+        android:layout_margin="11dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DescriptionTextBox"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="16sp"
+            android:text="@string/ConsentText"/>
+    </ScrollView>
+
+</RelativeLayout>

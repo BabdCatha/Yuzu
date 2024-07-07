@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Yuzu</string>
+    <string name="Options">Options</string>
+    <string name="Sauvegardes">Sauvegardes</string>
+    <string name="NouvellePartie">Nouvelle Partie</string>
+    <string name="title_activity_add_players">AddPlayers</string>
+    <string name="title_activity_add_phrase">AddPhrase</string>
+    <string name="NextPlayer">Joueur Suivant</string>
+    <string name="NomDuJoueur">Nom du joueur</string>
+    <string-array name="ColorArray">
+        <item>rouge</item>
+        <item>bleu</item>
+        <item>vert</item>
+        <item>noir</item>
+        <item>violet</item>
+    </string-array>
+    <string name="title_activity_jouer">Jouer</string>
+    <string name="JouerHint">Entrez votre première phrase</string>
+    <string name="PasAssezDeTexte">Veuillez entrer au moins deux phrases</string>
+    <string name="NouvellePhrase">Nouvelle phrase</string>
+    <string name="welcome">Bienvenue dans le jeu !</string>
+    <string name="Terminer">Terminer !</string>
+    <string name="Resultat">Résultat !</string>
+    <string name="EntrerTitre">Entrez un titre</string>
+    <string name="save">Enregistrer</string>
+    <string name="TextError">Erreur lors du chargement du texte</string>
+    <string name="Saved">Texte enregistré</string>
+    <string name="AlreadySaved">Texte déjà enregistré</string>
+    <string name="ResetSharedPreferences">Supprimer les sauvegardes</string>
+    <string name="NoStorySaved">On dirait que vous n\'avez encore enregistré aucune histoire</string>
+    <string name="disableAds">Faire un don</string>
+    <string name="Greeting">C\'est parti pour jouer avec tes amis !</string>
+    <string name="PasAssezJoueurs">Il faut au moins deux joueurs pour pouvoir jouer !</string>
+    <string name="NomVide">Chaque joueur doit avoir un nom !</string>
+    <string name="MusicPlayerFailed">Erreur lors du chargement de la musique</string>
+    <string name="DisableMusic">Musique</string>
+    <string name="MusicVolume">Volume de la musique</string>
+    <string name="LastPhraseEmpty">La dernière phrase ne peut pas être vide !</string>
+    <string name="AjouterJoueur">Ajouter un joueur</string>
+    <string name="AJActivity">Choix des joueurs</string>
+    <string name="Heading_1">Bienvenue dans Yuzu !</string>
+    <string name="Heading_2">Ajouter des joueurs</string>
+    <string name="Heading_3">Le principal</string>
+    <string name="Heading_4">Le résultat</string>
+    <string name="Text_1">Bonjour, je suis Yuzu ! Je serai votre guide dans ce jeu. Je vais vous montrer comment jouer, et vous présenter toutes les fonctionnalités de l\'application ! Si jamais vous voulez revoir ces conseils, vous me trouverez dans les options du jeu !</string>
+    <string name="Text_2">Commençons par le commencement ! Yuzu est un jeu à plusieurs, il faut donc que chaque joueur entre un pseudo pour savoir quand c\'est à son tour ! Une fois que tous les joueurs ont un nom, vous pouvez cliquer sur la flèche en bas pour démarrer la partie !</string>
+    <string name="Text_3">Voici l\'écran principal du jeu ! Tout en haut, vous pouvez voir le joueur qui doit jouer, en dessous vous voyez la dernière phrase du joueur d\'avant, vous devez continuer l\'histoire en ecrivant une suite à cette phrase, vous pouvez mettre autant de phrases que vous voulez en appuyant sur le bouton plus. Vous pouvez passer au joueur suivant grâce à la flèche, et quand vous pensez que l\'histoire est finie, appuyez sur \"Terminer\"</string>
+    <string name="Text_4">C\'est sur cet écran que vous verrez l\'histoire que vous avez crée, vous pouvez, avec les boutons du bas, l\'enregistrer, pour la relire plus tard, l\'envoyer à vos amis, ou retourner sur l\'écran principal du jeu</string>
+    <string name="ButtonBackText">Précédent</string>
+    <string name="ButtonNextText">Suivant</string>
+    <string name="ButtonFinish">Terminer</string>
+    <string name="ShowTuto">Revoir l\'intro</string>
+    <string name="AboutUs">À propos de nous</string>
+    <string name="Designer">Designer :</string>
+    <string name="Sadia">Molla Sadia</string>
+    <string name="Programmer">Programmeur :</string>
+    <string name="myself">Thomas Cyril</string>
+    <string name="OurStory">Nous sommes deux amis étudiants et nous vivons en France. Nous avons voulu créer un jeu qui s\'inspirait du \"Cadavre exquis\" afin de s\'occuper en famille ou entre amis. J\'ai donc programmé le jeu, une version qui fonctionnait, mais qui était plutôt laide. J\'ai alors proposé à Sadia, qui est plus une artiste, de s\'occuper des graphismes du jeu, et voici ce que tout cela à donné !</string>
+    <string name="Antonis">Si jamais vous avez envie de coder votre propre application pour Android, je vous recommande le livre \"Android development for gifted primates\" d\'Antonis Tsagaris, il est simple à suivre, amusant et c\'est celui qui m\'a appris ce qu\'il me fallait pour créer ce jeu ! Vous pouvez l\'acheter <![CDATA[<a href="https://www.amazon.com/Android-Development-Gifted-Primates-Beginners-ebook/dp/B07FYSKVYY">ici</a>]]>.</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="DeleteEverything">Êtes-vous sûr de vouloir supprimer toutes les histoires que vous avez enregistré ? Vous pouvez les supprimer individuellement à partir de la page \"Sauvegardes\"</string>
+    <string name="Sure">Êtes-vous sûr ?</string>
+    <string name="Accept">J\'accepte la collecte de données d\'utilisation à des fins d\'analyse et d\'amélioration du produit</string>
+    <string name="Ads">Je veux voir des publicités presonnalisées</string>
+    <string name="Pads">Publicités personnalisées</string>
+    <string name="Creports">Partager les rapports d\'incident</string>
+    <string name="NoAds">Vous ne verrez plus de publicités personnalisées</string>
+    <string name="NewAds">Vous verrez des publicités personnalisées</string>
+    <string name="PleaseRestart">Veuillez redémarrer l\'application pour que les changements prennent effet</string>
+    <string name="ConsentTitle">Une dernière chose</string>
+    <string name="ConsentText">Cette application utilise les services Answers de Fabric afin de collecter des données d\'utilisation anonymes et des rapports de crash pour nous aider à améliorer l\'application. Des données comme le modèle et le système du téléphone nous sont communiquées. Nous utilisons aussi Google Admob pour vous fournir du contenu publicitaire qui aide à financer le jeu.\n\nNous tenons à respecter votre vie privée, c\'est pourquoi nous vous proposons de desactiver l\'envoi des rapports de crash et le suivi publicitaire dans l\'application.\n\nVous pouvez à tout moment les désactiver ou les activer à partir des options du jeu.</string>
+    <string name="Really">Certain ?</string>
+    <string name="Quit">Voulez-vous vraiment quitter la partie en cours et retourner au menu principal ?</string>
+</resources>

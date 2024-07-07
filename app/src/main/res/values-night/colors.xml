@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EFE4AC</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#BE5A4B</color>
+    <color name="rouge">#FF0000</color>
+    <color name="vert">#00FF00</color>
+    <color name="bleu">#0000FF</color>
+    <color name="noir">#000000</color>
+    <color name="violet">#800080</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="transparentBlack">#88000000</color>
+    <color name="transparentWhite">#88FFFFFF</color>
+    <color name="transparentMiddle">#AA707070</color>
+    <color name="RippleColor">#FF909090</color>
+    <color name="EditTextColor">#BE514B</color>
+    <color name="FABbackground">#EFE4AC</color>
+    <color name="Yuzu_1">#F7BC13</color>
+    <color name="Yuzu_2">#FED82A</color>
+    <color name="Yuzu_3">#F5BF14</color>
+    <color name="Yuzu_4">#F2DC66</color>
+</resources>
